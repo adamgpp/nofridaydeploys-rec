@@ -1,0 +1,8 @@
+parameters:
+    level: 8
+    paths:
+        - src
+    ignoreErrors:
+        - '#Method .*::\w+\(\) return type has no value type specified in iterable type array#'
+        - '#Method .*::\w+\(\) has parameter \$\w+ with no value type specified in iterable type array#'
+        - '#Property .*::\$\w+ is never read, only written#'
